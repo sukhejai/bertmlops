@@ -1,0 +1,26 @@
+{
+    "training":
+    {
+        "DEVICE": "cpu",
+        "MAX_LEN": 70,
+        "TRAIN_BATCH_SIZE": 16,
+        "VALID_BATCH_SIZE": 8,
+        "EPOCHS":10,
+        "LEARNING_RATE": 6.041634300305793e-05,
+        "DROP_OUT_1": 0.44143278647314904,
+        "DROP_OUT_2": 0.10305883145862672,
+        "DROP_OUT_3": 0.3901015614787339
+    },
+    "evaluation":
+    {
+
+    },
+    "registration":
+    {
+        "tags": ["loss"]
+    },
+    "scoring":
+    {
+        
+    }
+}

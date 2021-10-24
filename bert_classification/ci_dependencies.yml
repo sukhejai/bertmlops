@@ -1,0 +1,33 @@
+name: mlopspython_ci
+
+dependencies:
+  # The python interpreter version.
+  - python=3.8.*
+
+  # dependencies with versions aligned with conda_dependencies.yml.
+  - numpy=1.19.*
+  - pandas=1.1.* 
+  - scikit-learn=0.23.*
+  - matplotlib==3.3.*
+
+  - conda-forge::jq
+  - pip=21.3.*
+
+  - pip:
+      # dependencies with versions aligned with conda_dependencies.yml.
+      - azureml-sdk==1.35.*
+
+      # Additional pip dependencies for the CI environment.
+      - pytest==5.4.*
+      - pytest-cov==2.8.*
+      - requests==2.23.*
+      - python-dotenv==0.12.*
+      - flake8==3.7.*
+      - flake8_formatter_junit_xml==0.0.*
+      - azure-cli==2.3.*
+      - torch==1.10.*
+      - transformers==4.11.*
+      - optuna==2.10.*
+      - nltk==3.6.*
+      - imblearn==0.0
+      

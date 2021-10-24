@@ -1,0 +1,17 @@
+Data Science and Data Engineers - Prashant, Vidya, Ishwar, Ha
+
+.pipelines
+bert_classification - python scripts for training, evaluate, scoring, register, conda dependencies, 
+data - the input_data.csv provided by the customer. created missing value and bad_schema csv files for test_data.py
+documentation - 
+
+
+DevOps Related
+
+.pipelines - CI/CD pipelines for running on Azure Devops
+documentation - 
+environment_setup - DevOps
+
+Not Aware
+
+charts
